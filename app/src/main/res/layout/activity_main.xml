@@ -8,6 +8,18 @@
     android:padding="10dp"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/edit_text_show_digits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/magnolia"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <Button
         android:id="@+id/button_C"
